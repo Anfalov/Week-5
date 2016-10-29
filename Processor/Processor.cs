@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Processor
 {
-{
+
     public class Processor<T, TRequest>
     {
         protected Func<TRequest, bool> Check;
